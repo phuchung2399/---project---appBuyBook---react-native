@@ -1,0 +1,30 @@
+
+        {/* <View style={{ flexDirection: 'row', justifyContent: 'space-between', }}>
+          <View style={{ flexDirection: 'row' }}>
+            <Image source={{ uri: ImageUrl || '' }} style={styles.img}></Image>
+            <View style={{ flexDirection: 'column', marginHorizontal: 5 }}>
+              <View
+                style={{
+                  flexDirection: 'row',
+                }}>
+                <Icon
+                  name="book"
+                  size={17}
+                  color="#ff6666"
+                  style={{ marginRight: 5 }}
+                />
+                <Text>{Quantity} quyển</Text>
+                <Icon
+                  name="money"
+                  size={17}
+                  color="#ff6666"
+                  style={{ marginHorizontal: 5 }}
+                />
+                <Text>{String(Price).replace(/(.)(?=(\d{3})+$)/g, '$1,')}đ</Text>
+              </View>
+              <Text>Ngày mượn: {this.convertDate(CreatedAt)}</Text>
+              <Text>Ngày trả: {DateReturned}</Text>
+            </View>
+          </View>
+          <View></View>
+        </View> */}
